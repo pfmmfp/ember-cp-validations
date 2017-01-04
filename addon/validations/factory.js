@@ -809,7 +809,7 @@ function validate(options = {}, async = true) {
 
 /**
  * A functional approach to check if a given attribute on a model is valid independently of the
- * model attribute's validations. This method will always return a promise which will then resolve
+ * model attribute's value. This method will always return a promise which will then resolve
  * to a {{#crossLink "ResultCollection"}}{{/crossLink}}.
  *
  * ```javascript
